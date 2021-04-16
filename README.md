@@ -5,20 +5,17 @@ and that's enough for me.
 
 Use Django, django-rest-framework as a back-end.
 
-This project is ship with: database, products photo, secret-key and debug enabled
+This project is ship with: database, products photo, secret-key, frontend build and debug enabled
 because is a fake project and will never go online.
 
-To have a look to it you need to have npm installed, then...
+To have a look to it:
 ```
 git clone https://github.com/deviare/FakeShop.git
 cd FakeShop
 python3 -m venv venv
 source venv/bin/activate
+pip3 install --upgrade pip
 pip3 install -r requirements.txt
-cd frontend
-npm install
-npm run build
-cd ..
 python3 manage.py runserver
 
 # Open http://127.0.0.1:8000/ in your browser
