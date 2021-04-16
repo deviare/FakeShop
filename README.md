@@ -1,8 +1,10 @@
 # FakeShop
 
-Fake E-commerce build for learn React-js, the UI is nothing fancy but cart and user logic works and that's enough for me. 
+Fake E-commerce build for learn React-js, the UI is nothing fancy but cart and user logic works
+and that's enough for me. 
 Use Django, django-rest-framework as a back-end.
-This project is ship with: database, products photo, secret-key and debug enabled because is a fake project and will never go online.
+This project is ship with: database, products photo, secret-key and debug enabled
+because is a fake project and will never go online.
 
 To have a look to it you need to have npm installed, then...
 ```
