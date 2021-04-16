@@ -1,0 +1,20 @@
+.footer{
+
+	height:100px;
+	width:100vw;
+	position:relative;
+	bottom:0;
+	background-color:#242424;
+	z-index:-1;
+}
+
+.icons-wrap{
+	color:#fff;
+	display:flex;
+	padding-top:30px;
+}
+
+
+.icons-wrap > * {
+	margin:2%;
+}

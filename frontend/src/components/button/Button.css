@@ -1,0 +1,17 @@
+
+.btn{
+
+	background-color:#242424;
+	color:#fff;
+	padding: 2% 10%;
+	border-radius:4px;
+}
+
+.btn-secondary{
+
+	background-color:#939393;
+	color:black;
+	padding: 0.8% 1%;
+	border-radius:4px;
+
+}

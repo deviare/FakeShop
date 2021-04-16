@@ -1,0 +1,30 @@
+
+
+.navbar{
+	height:10vh;
+	width:100vw;
+	position:fixed;
+	background-color:#242424;
+	padding:2%;
+	border-radius:4px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	z-index:8;
+}
+
+
+.navbar-logo{
+	margin-right:auto;
+	position:relative;
+	z-index:10;
+	color:#fff;
+	text-decoration:none;
+}
+
+
+.navbar-icon{
+	margin-left:auto;
+	margin-right:5%;
+	color:#fff;
+}

@@ -1,0 +1,41 @@
+
+
+
+
+.account-wrap{
+
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	width:50%;
+	margin:0 auto;
+}
+
+.input-wrap{
+	margin: 1% auto;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	width:50%;
+}
+
+.input-wrap > p{
+	font-weight:bolder;
+	margin-right:5%
+}
+
+.account-wrap label {
+	color:red;
+	text-decoration:underline;
+	margin:auto;
+	width:50%;
+}
+
+
+@media only screen and (max-width:760px){
+
+	.account-wrap{
+		margin:0;
+	}
+}

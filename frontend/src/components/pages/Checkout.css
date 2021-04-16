@@ -1,0 +1,43 @@
+
+
+
+
+.checkout-wrap{
+	width:100vw;
+	display:flex;
+	justify-content:space-evenly;
+	margin-top:5%;
+}
+
+
+.checkout-wrap .product-table {
+
+	width :50%;
+	height:50vh;
+	margin-right:10vw;
+}
+
+.buy-wrap{
+	margin: auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+@media only screen and  (max-width: 760px){
+
+
+	.checkout-wrap{
+
+		flex-wrap:wrap;
+		flex-direction:column;
+		align-items:center;
+
+	}
+
+	.checkout-wrap  .checkout-form {
+		order:1;
+		width:50%;
+		margin-top:20px;
+	}
+}
